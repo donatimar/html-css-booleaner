@@ -6,7 +6,9 @@ img {
 /* body */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 410px;
+    margin-right: 410px;
     text-align: left;
 }
 
@@ -14,9 +16,57 @@ body {
 .booleaner {
     width: 200px;
     height: 200px;
+    position: absolute
 }
 
 .top-header {
+    max-width: auto;
     background-image: url(../img/pattern.png);
-    background-repeat: repeat;
+    background-color: lightskyblue
+}
+
+.integrazione-autore {
+    color: grey;
+}
+
+.autore {
+    color: blue;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+
+.table thead {
+    background-color: blue; /* Dark blue background */
+    color: white; /* White text */
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #ADD8E6; /* Light blue background */
+    color: black; /* Black text */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: white; /* White background */
+    color: black; /* Black text */
+}
+
+.footer {
+    color: grey;
+}
+
+.container {
+    position: relative;
+    display: block;
+}
+
+.text {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
