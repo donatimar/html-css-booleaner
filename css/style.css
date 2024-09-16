@@ -9,20 +9,35 @@ body {
     margin-top: 10px;
     margin-left: 410px;
     margin-right: 410px;
+    line-height: 25px;
     text-align: left;
 }
 
 /* header */
 .booleaner {
-    width: 200px;
-    height: 200px;
-    position: absolute
+    margin-top: -50px;
+    margin-left: 20px;
+    width: 220px;
+    height: 220px;
 }
 
 .top-header {
     max-width: auto;
+    height: 100px;
     background-image: url(../img/pattern.png);
     background-color: lightskyblue
+}
+
+h1 {
+    margin-bottom: 3px;
+}
+
+h3 {
+    margin-bottom: 3px;
+}
+
+h4 {
+    margin-top: 3px;
 }
 
 .integrazione-autore {
@@ -67,6 +82,4 @@ body {
     top: 10px;
     left: 10px;
     color: white;
-    padding: 5px;
-    border-radius: 5px;
 }
