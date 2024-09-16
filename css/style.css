@@ -1,0 +1,14 @@
+/* reset */
+img {
+    max-width: 100%;
+}
+
+/* header */
+.booleaner {
+    width: 200px;
+    height: 200px;
+}
+
+.top-header {
+    background-image: url(../img/pattern.png);
+}
